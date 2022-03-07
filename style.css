@@ -119,6 +119,8 @@ html {
     flex-wrap: wrap;
 }
 .button {
+    margin-top: -22px; 
+    margin-bottom: -15px;
     position: relative;
     display: flex;
     align-items: center;
@@ -202,7 +204,8 @@ span {
 
 button 
 {
-    margin-top: 6px;
+    margin-top: 11px; 
+    margin-bottom: 8px;
     border: 2px solid var(--bg-main);
     background: var(--bg-main);
     box-shadow: var(--outer-shadow);
@@ -225,4 +228,9 @@ h1 {
     font-size: 300px;
     font-family: myFont;
 	src: url(./Pacifico-Regular.ttf);
+}
+
+br {
+    size: 6px;
+    margin-top: 6px; margin-bottom: 6px;
 }
